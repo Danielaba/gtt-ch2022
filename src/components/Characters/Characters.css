@@ -1,0 +1,64 @@
+.card{
+    /* border: 1px solid #C79E47;
+    box-shadow: 5px 5px 15px black;
+    background-color: rgba(255, 255, 255, 0.644); */
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .card:hover{
+    border: 2px solid aqua;
+    box-shadow: 8px 8px 12px black; 
+} */
+
+.img-personaje{
+    border-radius: 100%;
+    border: 2px solid #C79E47;
+    box-shadow: 5px 5px 15px black;
+}
+
+.img-personaje:hover{
+    border: 2px solid aqua;
+    box-shadow: 8px 8px 12px black;
+}
+
+.card-tile{
+    font-family: cursive;
+    font-weight: 600;
+    font-size: 25px;
+    text-shadow: 2px 2px 1px #A9D3E9;
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.boton{
+    text-decoration: none;
+    padding: 2px 15px;
+    background-color: #c79e47;
+    border-radius: 5px;
+    color: white;
+    font-family: cursive;
+}
+
+.boton:hover{
+    background-color: #E6BB54;
+    color: white;
+    box-shadow: 2px 2px 10px #11622D; 
+}
+
+.pagination{
+    background-color: rgba(255, 255, 255, 0.616);
+    border: 2px solid #C79E47;
+    padding: 7px 12px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px black;
+}

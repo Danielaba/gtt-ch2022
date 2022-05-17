@@ -1,0 +1,12 @@
+.nav-t{
+    color: aqua;
+    text-shadow: 3px 3px 1px #61B344;
+    font-size: 26px;
+    font-family: 'Finger Paint', cursive;
+    text-decoration: none;
+}
+
+.nav-t:hover{
+    color: rgb(155, 255, 255);
+    transition: ease-in-out 0.5s;
+}

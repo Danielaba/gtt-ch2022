@@ -1,0 +1,106 @@
+.info-personaje{
+    width: 100%;
+    height: 88vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info{
+    width: 70%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caja-img{
+    border-radius: 5px;
+    border: 2px solid aqua;
+    height: 300px;
+    width: 300px;
+}
+
+.img{
+    height: 100%;
+    width: 100%;
+}
+
+.caja-info{
+    background-color: #32363ac9;
+    box-shadow: 5px 5px 15px black;
+    height: 250px;
+    width: 400px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 0px 15px 15px 0px;
+    text-align: center;
+}
+.caja-info:hover{
+    background-color: #32363ade;
+    height: 260px;
+    width: 420px;
+    box-shadow: 5px 5px 10px black;
+    transition: ease-in-out 0.5s;
+    border-top: 2px solid aqua;
+    border-bottom: 2px solid aqua;
+    border-right: 2px solid aqua;
+}
+
+.caja-info h2{
+    color: aqua;
+    text-shadow: 4px 4px 1px #61B344;
+    font-size: 45px;
+    font-family: 'Finger Paint', cursive;
+}
+
+.caja-info p{
+    color: white;
+    font-size: 17px;
+    font-family: cursive;
+}
+
+@media (max-width: 900px) {
+    .info{
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .caja-img{
+        border-radius: 5px;
+        border: 2px solid aqua;
+        height: 200px;
+        width: 200px;
+    }
+
+    .caja-info{
+        height: 250px;
+        width: 300px;
+        border-radius: 5px;
+        margin-top: 20px;
+    }
+
+    .caja-info:hover{
+        height: 250px;
+        width: 300px;
+        border: 2px solid aqua;
+    }
+    
+
+    .caja-info h2{
+        color: aqua;
+        text-shadow: 4px 4px 1px #61B344;
+        font-size: 25px;
+        font-family: 'Finger Paint', cursive;
+    }
+    
+    .caja-info p{
+        color: white;
+        font-size: 15px;
+        font-family: cursive;
+    }
+
+}
