@@ -1,70 +1,90 @@
-# Getting Started with Create React App
+<h1>Rick and Morty App</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div>
+    <img src='./src/assets/img/rickandmorty.PNG'></img>
+</div>
 
-## Available Scripts
 
-In the project directory, you can run:
+<h1>Como Correr el proyecto</h1>
+<ul>
+<li>Clona el respositorio en una carpeta</li>
+<li>Posicionate en la carpeta donde clonaste el repositorio y ejecuta npm install</li>
+<li>En una terminal  Posicionate en la carpeta que clonaste y ejecuta npm start</li>
+</ul>
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<h1>RESUMEN</h1>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<p>
+    Estas fueron todas las configuraciones que debes hacer para correr el proyecto. Ahora podras ver los personajes de la serie Rick and Morty.
+</p>
 
-### `npm test`
+<p>
+    Puedes consultar el personaje que desees dando click en el boton "Ver Detalle" y podras ve la informacion respectiva de cada pesonaje.
+</p>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<div>
+    <img src='./src/assets/img/personajes.PNG'></img>
+</div>
 
-### `npm run build`
+<h1>PAGINADOR</h1>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<p>
+    Podras encontrar el paginador en la parte inferior de la App que va desde la pagina 1 hasta la pagina 42, este se realizo con material UI.
+</p>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<div>
+    <img src='./src/assets/img/pagination.PNG'></img>
+</div>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<div>
+    <img src='./src/assets/img/personajes.PNG'></img>
+</div>
 
-### `npm run eject`
+<h1>RESPONSIVE</h1>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<p>
+    La aplicacion cuenta con responsive web la cual parte de los 900px para una mejor experiencia de usuario en dispositivos moviles
+</p>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<h2>
+    Responsive 900px
+</h2>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<div>
+    <img src='./src/assets/img/rickandmorty900px.PNG'></img>
+</div>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<h2>
+    Responsive Movile
+</h2>
 
-## Learn More
+<div>
+    <img src='./src/assets/img/rickandmortymovile.PNG'></img>
+</div>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<div>
+    <img src='./src/assets/img/personajesmovile.PNG'></img>
+</div>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<h1>DESPLIEGUE EN NETIFLY</h1>
 
-### Code Splitting
+<p>
+    Para el despliegue de la aplicacion utilizamos el servicio gratuito que nos proporciona Netlify, el cual mediante el CLI de netlify se hizo un deslpuegue muy sencillo:
+</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<p>URL del despliegue: https://62840f1371221a145e152cd5--rickandmortybulid.netlify.app/</p>
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<div>
+    <h1> TECNOLOGIAS USADAS </h1>
+        <h2>FRONTEND</h2>
+        <ul>
+            <li>React JS</li>
+            <li>React hooks</li>
+            <li>Axios</li>
+            <li>CSS</li>
+            <li>Bootstrap</li>
+            <li>Material UI</li>
+            <li>Netifly</li>
+        </ul>
+</div>
