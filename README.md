@@ -1,7 +1,7 @@
 <h1>Rick and Morty App</h1>
 
 <div>
-    <img src='./src/assets/img/rickandmorty.PNG'></img>
+    <img src='./src/assets/img/rickandmorty.png'></img>
 </div>
 
 
@@ -24,7 +24,7 @@
 </p>
 
 <div>
-    <img src='./src/assets/img/personajes.PNG'></img>
+    <img src='./src/assets/img/personajes.png'></img>
 </div>
 
 <h1>PAGINADOR</h1>
@@ -34,11 +34,11 @@
 </p>
 
 <div>
-    <img src='./src/assets/img/pagination.PNG'></img>
+    <img src='./src/assets/img/pagination.png'></img>
 </div>
 
 <div>
-    <img src='./src/assets/img/personajes.PNG'></img>
+    <img src='./src/assets/img/personajes.png'></img>
 </div>
 
 <h1>RESPONSIVE</h1>
@@ -52,7 +52,7 @@
 </h2>
 
 <div>
-    <img src='./src/assets/img/rickandmorty900px.PNG'></img>
+    <img src='./src/assets/img/rickandmorty900px.png'></img>
 </div>
 
 <h2>
@@ -60,11 +60,11 @@
 </h2>
 
 <div>
-    <img src='./src/assets/img/rickandmortymovile.PNG'></img>
+    <img src='./src/assets/img/rickandmortymovile.png'></img>
 </div>
 
 <div>
-    <img src='./src/assets/img/personajesmovile.PNG'></img>
+    <img src='./src/assets/img/personajesmovile.png'></img>
 </div>
 
 <h1>DESPLIEGUE EN NETIFLY</h1>
