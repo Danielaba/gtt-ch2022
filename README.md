@@ -37,10 +37,6 @@
     <img src='./src/assets/img/pagination.png'></img>
 </div>
 
-<div>
-    <img src='./src/assets/img/personajes.png'></img>
-</div>
-
 <h1>RESPONSIVE</h1>
 
 <p>
